@@ -20,12 +20,15 @@
 # Tools Used in Production Deployment
 1. Cloud plaftform AWS
 2. Custorm VPC with Internet Gateway, Public and Private Subnets
-3. EC2 LaunchTemplate
-4. EC2 AutoScaling group
-5. EC2 Target Group
-6. Application LoabBalancer
-7. AWS Certificate Manager
-8. Route53
-9. Security Groups
+3. Git, GitHub
+4. Docker, DockerHub
+5. SonarQube Cloud
+6. EC2 LaunchTemplate
+7. EC2 AutoScaling group
+8. EC2 Target Group
+9. Application LoabBalancer
+10. AWS Certificate Manager
+11. Route53
+12. Security Groups
 
 
