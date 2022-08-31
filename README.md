@@ -1,7 +1,7 @@
 <div align="left">
   <h3>NodeJS Sample Application</h3>
   <strong>
-      In this project I demonstrated how to deploy a containerized application using docker compose in autoscaling group with loadbalancer. Here I have used various devops tools like Jenkins for task automation, terraform for infrastructure provisioning, sonarqube for code analysis, python boto3 for custom ami creation etc.
+      In this project I demonstrated how to deploy a containerized nodejs application using docker compose in production. Here I have used various devops tools like Jenkins for task automation, terraform for infrastructure provisioning, sonarqube for code analysis, python boto3 for custom ami creation etc. Also I have used other tools like Terraform for infrastructure automation, ansible for task automation, and various aws tools for EC2 autoscaling, application loadbalancer etc. On the whole I have tried to used tools that are required for production deployment of a nodejs application.
   </strong>
 </div>
 <br>
