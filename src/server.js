@@ -3,10 +3,11 @@ const path = require('path')
 const fareUtils = require('./fareutils')
   
 const app = express();
-  
+
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
-  
+app.use('/', express.static('public'))
+
 app.post('/calcfare', (req, res) => {
     let km = parseFloat(req.body.km)
     let min = parseInt(req.body.min)
@@ -33,7 +34,11 @@ function getLocalIp() {
 }
 
 app.get('/', (req, res) => {
-  res.send(getLocalIp())
+    let img = `<img src="/image-2.png" />`
+    let html = `<!DOCTYPE html><html><head><title>Sample</title></head>` 
+    html += `<body><p><strong>My Server IP: </strong>${getLocalIp()}</p><div style="text-align:center;">${img}</div></body></html>`
+
+  res.send(html)
 })
 
 app.get('/rate', (req, res) => {
